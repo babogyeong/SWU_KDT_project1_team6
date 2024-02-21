@@ -1,0 +1,1 @@
+*/30 * * * * /home/right/feb_project/log.sh && /home/right/feb_project/send_mail.sh
