@@ -1,0 +1,5 @@
+# write logfile 5minutes
+*/5 * * * * /home/send-server2/sandbox/sh/resource.sh >> /home/send-server2/log/resource.log 2>&1
+
+# send logfile 5minutes
+*/25 * * * * /home/send-server2/sandbox/sh/send.sh
